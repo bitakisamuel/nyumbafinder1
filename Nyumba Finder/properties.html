@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Properties | Nyumba Finder</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<i class="fa-solid fa-house"></i>
+Nyumba Finder
+</div>
+
+<nav id="navbar">
+
+<a href="index.html">Home</a>
+
+<a href="properties.html" class="active">Properties</a>
+
+<a href="agents.html">Agents</a>
+
+<a href="about.html">About</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<div class="nav-buttons">
+
+<a href="login.html" class="login-btn">Login</a>
+
+<div class="menu" id="menu">
+<i class="fa-solid fa-bars"></i>
+</div>
+
+</div>
+
+</header>
+
+<section class="hero" style="height:55vh;">
+
+<div class="overlay">
+
+<h1>Find Your Perfect Property</h1>
+
+<p>Browse verified apartments, houses, villas and offices.</p>
+
+</div>
+
+</section>
+
+<section class="search-section">
+
+<h2>Search Properties</h2>
+
+<div class="search-box">
+
+<input type="text"
+id="searchLocation"
+placeholder="Location">
+
+<select id="searchType">
+
+<option value="">Property Type</option>
+
+<option value="Apartment">Apartment</option>
+
+<option value="Bedsitter">Bedsitter</option>
+
+<option value="House">House</option>
+
+<option value="Villa">Villa</option>
+
+<option value="Office">Office</option>
+
+</select>
+
+<button id="searchBtn">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+Search
+
+</button>
+
+<select>
+
+<option>Bedrooms</option>
+
+<option>1 Bedroom</option>
+
+<option>2 Bedrooms</option>
+
+<option>3 Bedrooms</option>
+
+<option>4+ Bedrooms</option>
+
+</select>
+
+<select>
+
+<option>Budget</option>
+
+<option>KES 10,000</option>
+
+<option>KES 20,000</option>
+
+<option>KES 40,000</option>
+
+<option>KES 80,000+</option>
+
+</select>
+
+<button>
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+Search
+
+</button>
+
+</div>
+
+</section>
+
+<section class="featured">
+
+<h2>Available Properties</h2>
+
+<div class="property-grid">
+
+<!-- Property 1 -->
+
+<div class="property-card"
+data-location="Kilimani"
+data-type="Apartment">
+
+<img src="images/LUX Image 1.jpg">
+
+<div class="property-info">
+
+<span>Kilimani</span>
+
+<h3>Luxury Apartment</h3>
+
+<h2>KES 35,000 / Month</h2>
+
+<p>
+
+<i class="fa-solid fa-bed"></i> 2 Beds
+
+&nbsp;
+
+<i class="fa-solid fa-bath"></i> 2 Baths
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-car"></i> Parking
+
+&nbsp;
+
+<i class="fa-solid fa-wifi"></i> Wi-Fi
+
+</p>
+
+<a href="house-details.html">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+<!-- Property 2 -->
+
+<div class="property-card"
+data-location="Westlands"
+data-type="Apartment">
+
+<img src="images/MOD P1.jpg">
+
+<div class="property-info">
+
+<span>Westlands</span>
+
+<h3>Modern Studio</h3>
+
+<h2>KES 22,000 / Month</h2>
+
+<p>
+
+<i class="fa-solid fa-bed"></i> 1 Bed
+
+&nbsp;
+
+<i class="fa-solid fa-bath"></i> 1 Bath
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-shield-halved"></i> Security
+
+</p>
+
+<a href="house-details.html">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+<!-- Property 3 -->
+
+<div class="property-card"
+data-location="Karen"
+data-type="House">
+
+<img src="images/FAM P2.jpg">
+
+<div class="property-info">
+
+<span>Karen</span>
+
+<h3>Family House</h3>
+
+<h2>KES 65,000 / Month</h2>
+
+<!-- Property 4 -->
+
+<div class="property-card">
+
+<img src="images/EXEC P1.jpg">
+
+<div class="property-info">
+
+<span>Runda</span>
+
+<h3>Executive Villa</h3>
+
+<h2>KES 120,000 / Month</h2>
+
+<p>
+<i class="fa-solid fa-bed"></i> 5 Beds
+&nbsp;
+<i class="fa-solid fa-bath"></i> 4 Baths
+</p>
+
+<p>Swimming Pool • Garden • CCTV</p>
+
+<a href="house-details.html">View Details</a>
+
+</div>
+
+</div>
+
+<!-- Property 5 -->
+
+<div class="property-card"
+data-location="kasarani"
+data-type="House">
+
+<img src="images/MOD P1.jpg">
+
+<div class="property-info">
+
+<span>Kasarani</span>
+
+<h3>Modern Bedsitter</h3>
+
+<h2>KES 12,000 / Month</h2>
+
+<p>
+<i class="fa-solid fa-bed"></i> 1 Bed
+&nbsp;
+<i class="fa-solid fa-bath"></i> 1 Bath
+</p>
+
+<p>Water Included • Parking</p>
+
+<a href="house-details.html">View Details</a>
+
+</div>
+
+</div>
+
+<!-- Property 6 -->
+
+<div class="property-card"
+data-location="South B"
+data-type="House">
+
+<img src="images/LUX Image 2.jpg">
+
+<div class="property-info">
+
+<span>South B</span>
+
+<h3>2 Bedroom Apartment</h3>
+
+<h2>KES 30,000 / Month</h2>
+
+<p>
+<i class="fa-solid fa-bed"></i> 2 Beds
+&nbsp;
+<i class="fa-solid fa-bath"></i> 2 Baths
+</p>
+
+<p>Balcony • Lift • Security</p>
+
+<a href="house-details.html">View Details</a>
+
+</div>
+
+</div>
+
+<!-- Property 7 -->
+
+<div class="property-card"
+data-location="Kileleshwa"
+data-type="House">
+
+<img src="images/LUX Image 5.jpg">
+
+<div class="property-info">
+
+<span>Kileleshwa</span>
+
+<h3>Luxury Penthouse</h3>
+
+<h2>KES 150,000 / Month</h2>
+
+<p>
+<i class="fa-solid fa-bed"></i> 4 Beds
+&nbsp;
+<i class="fa-solid fa-bath"></i> 4 Baths
+</p>
+
+<p>Gym • Pool • Rooftop</p>
+
+<a href="house-details.html">View Details</a>
+
+</div>
+
+</div>
+
+<!-- Property 8 -->
+
+<div class="property-card"
+data-location="Embakasi"
+data-type="House">
+
+<img src="images/LUX P4.jpg">
+
+<div class="property-info">
+
+<span>Embakasi</span>
+
+<h3>Affordable Apartment</h3>
+
+<h2>KES 18,000 / Month</h2>
+
+<p>
+<i class="fa-solid fa-bed"></i> 1 Bed
+&nbsp;
+<i class="fa-solid fa-bath"></i> 1 Bath
+</p>
+
+<p>Parking • Security</p>
+
+<a href="house-details.html">View Details</a>
+
+</div>
+
+</div>
+
+<!-- Property 9 -->
+
+<div class="property-card"
+data-location="Ngong Road"
+data-type="House">
+
+<img src="images/Office p1.jpg">
+
+<div class="property-info">
+
+<span>Ngong Road</span>
+
+<h3>Office Space</h3>
+
+<h2>KES 75,000 / Month</h2>
+
+<p>
+120 m² Office Space
+</p>
+
+<p>Internet • Parking</p>
+
+<a href="house-details.html">View Details</a>
+
+</div>
+
+</div>
+
+<!-- Property 10 -->
+
+<div class="property-card"
+data-location="Lavington"
+data-type="House">
+
+<img src="images/LUX BUILD.jpg">
+
+<div class="property-info">
+
+<span>Lavington</span>
+
+<h3>Luxury Mansion</h3>
+
+<h2>KES 250,000 / Month</h2>
+
+<p>
+<i class="fa-solid fa-bed"></i> 6 Beds
+&nbsp;
+<i class="fa-solid fa-bath"></i> 5 Baths
+</p>
+
+<p>Garden • Pool • Garage</p>
+
+<a href="house-details.html">View Details</a>
+
+</div>
+
+</div>
+
+<!-- Property 11 -->
+
+<div class="property-card"
+data-location="Rongai"
+data-type="House">
+
+<img src="images/FAM P5.jpg">
+
+<div class="property-info">
+
+<span>Rongai</span>
+
+<h3>Family Home</h3>
+
+<h2>KES 28,000 / Month</h2>
+
+<p>
+<i class="fa-solid fa-bed"></i> 3 Beds
+&nbsp;
+<i class="fa-solid fa-bath"></i> 2 Baths
+</p>
+
+<p>Parking • Fence</p>
+
+<a href="house-details.html">View Details</a>
+
+</div>
+
+</div>
+
+<!-- Property 12 -->
+
+<div class="property-card"
+data-location="Syokimau"
+data-type="House">
+
+<img src="images/OOOK.jpg">
+
+<div class="property-info">
+
+<span>Syokimau</span>
+
+<h3>Modern Bungalow</h3>
+
+<h2>KES 48,000 / Month</h2>
+
+<p>
+<i class="fa-solid fa-bed"></i> 3 Beds
+&nbsp;
+<i class="fa-solid fa-bath"></i> 2 Baths
+</p>
+
+<p>Garden • Parking • Wi-Fi</p>
+
+<a href="house-details.html">View Details</a>
+
+</div>
+
+<section class="pagination">
+
+<a href="#" class="active">1</a>
+
+<a href="#">2</a>
+
+<a href="#">3</a>
+
+<a href="#">Next <i class="fa-solid fa-arrow-right"></i></a>
+
+</section>
+
+<p>
+
+<i class="fa-solid fa-bed"></i> 4 Beds
+
+&nbsp;
+
+<i class="fa-solid fa-bath"></i> 3 Baths
+
+</p>
+
+<p>
+
+Garden • Parking
+
+</p>
+
+<a href="house-details.html">
+
+View Details
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="pagination">
+
+    <a href="#" class="active">1</a>
+
+    <a href="#">2</a>
+
+    <a href="#">3</a>
+
+    <a href="#">Next <i class="fa-solid fa-arrow-right"></i></a>
+
+</section>
+
+<footer>
+
+    <div class="copyright">
+
+        © 2026 Nyumba Finder Nairobi | All Rights Reserved
+
+    </div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

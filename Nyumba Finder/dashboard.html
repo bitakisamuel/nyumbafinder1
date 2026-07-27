@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agent Dashboard</title>
+
+<link rel="stylesheet" href="css/dashboard.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>🏠 Nyumba Finder</h2>
+
+<a href="#"><i class="fa-solid fa-house"></i> Dashboard</a>
+
+<a href="#"><i class="fa-solid fa-building"></i> My Properties</a>
+
+<a href="#"><i class="fa-solid fa-plus"></i> Add Property</a>
+
+<a href="#"><i class="fa-solid fa-calendar-check"></i> Bookings</a>
+
+<a href="#"><i class="fa-solid fa-user"></i> Profile</a>
+
+<a href="#"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+
+</div>
+
+<div class="content">
+
+<h1>Agent Dashboard</h1>
+
+<div class="cards">
+
+<div class="card">
+<h2>24</h2>
+<p>Total Properties</p>
+</div>
+
+<div class="card">
+<h2>135</h2>
+<p>House Visits</p>
+</div>
+
+<div class="card">
+<h2>14</h2>
+<p>Available Houses</p>
+</div>
+
+<div class="card">
+<h2>10</h2>
+<p>Rented Houses</p>
+</div>
+
+</div>
+
+<h2>Add New Property</h2>
+
+<form id="propertyForm">
+
+<input
+type="text"
+placeholder="Property Title"
+required>
+
+<input
+type="text"
+placeholder="Location"
+required>
+
+<input
+type="number"
+placeholder="Price"
+required>
+
+<select required>
+
+<option>Apartment</option>
+
+<option>Bedsitter</option>
+
+<option>Maisonette</option>
+
+<option>Office</option>
+
+<option>Land</option>
+
+</select>
+
+<textarea
+placeholder="Property Description">
+</textarea>
+
+<input
+type="file"
+accept="image/*">
+
+<button type="submit">
+Publish Property
+</button>
+
+</form>
+
+</div>
+
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>
